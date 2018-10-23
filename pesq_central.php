@@ -1,4 +1,4 @@
-<?php include "conn.php"; ?>
+﻿<?php include "conn.php"; ?>
 <?php 
 
 
@@ -134,6 +134,7 @@ function fnExcelReport() {
         <ul class="dropdown-menu">
           <li><a href="pesq_per_prev.php">Preventivas</a></li>
           <li><a href="pesq_per_fiscal.php">Fiscalização</a></li>
+ <li><a href="pesq_central.php">Melhorias Centrais</a></li>
          
         </ul>
       </li>
@@ -149,7 +150,7 @@ function fnExcelReport() {
 
 
 
-    <span><strong>PESQUISA POR FCA PENDENTE</strong></span><br><br><br>
+    <span><strong>PESQUISA POR MELHORIA CENTRAIS</strong></span><br><br><br>
 
   <form class="form-inline" role="form"   method="POST" action="pesq_central.php" style="margin-left:10%;">
     <div class="form-group">

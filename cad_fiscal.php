@@ -1,4 +1,4 @@
-
+﻿
 <?php 
 
 
@@ -28,13 +28,6 @@ if(!isset($_SESSION["login"]) || ($_SESSION["acesso"] != 'GA' ) && ($_SESSION["a
 
 }
   </style>
-
-
-  <script>
-window.alert("Conforme solicitação,esta página esta sendo modificada para gerar pdf automático apartir da entrada de dados, previsão para finalização da atividade 06/10/2017 ")
-</script>
-
-
 <link rel="icon" href="logo.png">
 
 
@@ -75,6 +68,11 @@ window.alert("Conforme solicitação,esta página esta sendo modificada para ger
 <script type="text/javascript" src="validacao.js"></script>
 <script type="text/javascript" src="jquery-ui.min.js"></script>
 <script type="text/javascript" src="jquery-ui.js"></script>
+
+ <script>
+window.alert("Conforme solicitação,esta página esta sendo modificada para gerar pdf automático a partir da entrada de dados.")
+</script>
+
 
 
 

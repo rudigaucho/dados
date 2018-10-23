@@ -1,4 +1,4 @@
-
+﻿
 
 <?php
 
@@ -88,7 +88,7 @@ $pagina =
 
 
 
- <img src="logo_sere.png" alt="" width="150" height="50"  > 
+<img src="logo_sere.png" alt="" width="150" height="50"  > 
 <h3 style="text-align: center;">FISCALIZAÇÃO IQF TECNICOS</h3>
 <h5>TÉCNICO: <strong> '.$nome.'  </strong> </h5>
 <h5>ID: '.$id.' </h5>

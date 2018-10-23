@@ -1,4 +1,4 @@
-<?php include "conn.php"; ?>
+﻿<?php include "conn.php"; ?>
 <?php 
 
 
@@ -16,12 +16,12 @@ if(!isset($_SESSION["login"]) || ($_SESSION["acesso"] != 'GE' ) &&  ($_SESSION["
 
 
 
-<!DOCTYPE html.>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
 <!--
-  <script>
-window.alert("Sistema modificado no dia 28/10/2017, conforme solicitação de melhorias,para mais informações click no botão 'TUTORIAL' em sua página inicial.Qualquer eventual problema,dúvida ou feedback favor entrar em contato com (41) 985348649 Rudinei Rossales.")
+<script>
+window.alert("Sistema modificado no dia 28/10/2017, conforme solicitação de melhorias,para mais informações click no botão 'TUTORIAL' em sua página inicial.Qualquer eventual problema,dúvida ou feedback favor entrar em contato com (41) 985348648 Rudinei Rossales.")
 
 </script>
 -->
@@ -117,14 +117,10 @@ function fnExcelReport() {
                  <a class="navbar-brand" href="#"> <?php echo $_SESSION["nome"]?></a>
             </div>
             <div class="navbar-collapse collapse">
-
                 <ul class="nav navbar-nav navbar-right">
-
-
               
          
                     <li class="dropdown">
-
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">CADASTRO
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
@@ -142,7 +138,6 @@ function fnExcelReport() {
 
                     <?php if($_SESSION["tr"] == '383056' or $_SESSION["tr"] == '382303'){?>
                      <li><a href="agenda.php">Agenda</a></li>
-                     <li><a href="pendencia.php">Pendencia</a></li>
                         <?php } ?>
                 
         
@@ -157,22 +152,43 @@ function fnExcelReport() {
           <li><a href="pesq_central.php">Melhorias Centrais</a></li>
           <?php if($_SESSION["tr"] == '383056' or $_SESSION["tr"] == '382303'){?>
                      <li><a href="pesq_agenda.php">Agenda</a></li>
-                        <li><a href="pesq_pendencia.php">Agenda</a></li>
                         <?php } ?>
+         
+        </ul>
+      </li>
+
+<li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">ICD2
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+       
+          <li><a href="icd2/icd2_leste.php">SC-LESTE</a></li>
+          <li><a href="icd2/icd2_planalto.php">SC-PLANALTO</a></li>
+          <li><a href="icd2/icd2_vale.php">SC-VALE</a></li>
+          <li><a href="icd2/icd2_sc_norte.php">SC-NORTE</a></li>
+          <li><a href="icd2/icd2_sc_sul.php">SC-SUL</a></li>
+          <li><a href="icd2/icd2_oeste.php">SC-OESTE</a></li>
+
+          <li><a href="icd2/icd2_cpnorte.php">PR-CAPITAL NORTE</a></li>
+          <li><a href="icd2/icd2_cpsul.php">PR-CAPITAL SUL</a></li>
+          <li><a href="icd2/icd2_maringa.php">PR-MARINGA</a></li>
+          <li><a href="icd2/icd2_cascavel.php">PR-CASCAVEL</a></li>
+          <li><a href="icd2/icd2_londrina.php">PR-LONDRINA</a></li>
+          <li><a href="icd2/icd2_ponta.php">PR-PONTA</a></li>
+          
+          
          
         </ul>
       </li>
          <li class="active"><a href="modifica_senha.php">Trocar senha</a></li>
       <li class="active"><a href="Logout.php">Logout</a></li>
-      <li class="active"><a href="tutorial.pdf" target="_BLANCK">TUTORIAL MELHORIAS</a></li>
+ <li class="active"><a href="tutorial.pdf" target="_BLANCK">TUTORIAL MELHORIAS</a></li>
 
                 </ul>
             </div>
 
         </div>
     </div>
-
-
 
 
 <div class="container-fluid">

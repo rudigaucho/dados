@@ -1,4 +1,4 @@
-
+﻿
 
 
 <?php
@@ -6,7 +6,7 @@
 
 //-------------------------------------------  VERIFICACAO CASSIANO   ----------------------------------------------------------------
 
-$sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = week(NOW()) and tipo = 'OS' and supervisor = 'MARLON CRISTIAN' and year(data) = year(now()) " );
+$sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = week(NOW()) and tipo = 'OS' and supervisor = 'MARLON CRISTIAN'  and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql1 ) ){
 
 
@@ -17,7 +17,7 @@ $sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = 
 
 
 
- $sql2 = mysql_query ("select count(*) as bd from atividades where week(data) = week(NOW()) and tipo = 'BD' and supervisor =  'MARLON CRISTIAN' and year(data) = year(now()) " );
+ $sql2 = mysql_query ("select count(*) as bd from atividades where week(data) = week(NOW()) and tipo = 'BD' and supervisor =  'MARLON CRISTIAN'  and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql2 ) ){
 
 
@@ -27,7 +27,7 @@ $sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = 
 
 
 
-  $sql3 = mysql_query ("select count(*) as prev from atividades where  week(data) = week(NOW()) and tipo = 'PREVENTIVA' and supervisor = 'MARLON CRISTIAN' and year(data) = year(now())" );
+  $sql3 = mysql_query ("select count(*) as prev from atividades where  week(data) = week(NOW()) and tipo = 'PREVENTIVA' and supervisor = 'MARLON CRISTIAN'  and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql3) ){
 
 
@@ -69,7 +69,7 @@ $sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = 
 
 
 
- $sql2 = mysql_query ("select count(*) as bd from atividades where  week(data) = week(NOW()) and tipo = 'BD' and supervisor = 'MARCIO ALVES DA CRUZ' and year(data) = year(now())" );
+ $sql2 = mysql_query ("select count(*) as bd from atividades where  week(data) = week(NOW()) and tipo = 'BD' and supervisor = 'MARCIO ALVES DA CRUZ'and year(data) = year(now()) " );
  while ($dado = mysql_fetch_assoc($sql2 ) ){
 
 
@@ -142,7 +142,7 @@ $sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = 
   $faix_mes = $dado["conta_mes"];
 
  } 
-
+ 
  $sql5 = mysql_query ("select count(*) as conta_anterior from atividades where MONTH(data) = MONTH(NOW())-1  and supervisor = 'LUIS FERNANDO FAIX' and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql5 ) ){
 
@@ -186,7 +186,7 @@ $sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = 
   $marlos_prev = $dado["prev"];
 
  } 
-   $sql4 = mysql_query ("select count(*) as conta_mes from atividades where MONTH(data) = MONTH(NOW())  and supervisor = 'MARLOS UELDES FELICIO'and year(data) = year(now())" );
+   $sql4 = mysql_query ("select count(*) as conta_mes from atividades where MONTH(data) = MONTH(NOW())  and supervisor = 'MARLOS UELDES FELICIO' and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql4 ) ){
 
 
@@ -285,7 +285,7 @@ $sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = 
 
   $ferri_prev = $dado["prev"];
 
- } 
+ }  
    $sql4 = mysql_query ("select count(*) as conta_mes from atividades where MONTH(data) = MONTH(NOW())  and supervisor = 'ANDERSON FELIPE FERRI' and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql4 ) ){
 
@@ -306,7 +306,7 @@ $sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = 
 
 // ---------------VERIFICAÇÃO enir -----------------------------------------------------------
 
- $sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = week(NOW()) and tipo = 'OS' and supervisor = 'ENIR JOSE RODRIGUES'" );
+ $sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = week(NOW()) and tipo = 'OS' and supervisor = 'ENIR JOSE RODRIGUES' and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql1 ) ){
 
 
@@ -317,7 +317,7 @@ $sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = 
 
 
 
- $sql2 = mysql_query ("select count(*) as bd from atividades where  week(data) = week(NOW()) and tipo = 'BD' and supervisor = 'ENIR JOSE RODRIGUES'" );
+ $sql2 = mysql_query ("select count(*) as bd from atividades where  week(data) = week(NOW()) and tipo = 'BD' and supervisor = 'ENIR JOSE RODRIGUES' and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql2 ) ){
 
 
@@ -327,14 +327,14 @@ $sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = 
 
 
 
-  $sql3 = mysql_query ("select count(*) as prev from atividades where  week(data) = week(NOW()) and tipo = 'PREVENTIVA' and supervisor = 'ENIR JOSE RODRIGUES'" );
+  $sql3 = mysql_query ("select count(*) as prev from atividades where  week(data) = week(NOW()) and tipo = 'PREVENTIVA' and supervisor = 'ENIR JOSE RODRIGUES' and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql3 ) ){
 
 
   $enir_prev = $dado["prev"];
 
  } 
-   $sql4 = mysql_query ("select count(*) as conta_mes from atividades where MONTH(data) = MONTH(NOW())  and supervisor = 'ENIR JOSE RODRIGUES'" );
+   $sql4 = mysql_query ("select count(*) as conta_mes from atividades where MONTH(data) = MONTH(NOW())  and supervisor = 'ENIR JOSE RODRIGUES' and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql4 ) ){
 
 
@@ -342,7 +342,7 @@ $sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = 
 
  } 
 
-  $sql5 = mysql_query ("select count(*) as conta_anterior from atividades where MONTH(data) = MONTH(NOW())-1  and supervisor = 'ENIR JOSE RODRIGUES'" );
+  $sql5 = mysql_query ("select count(*) as conta_anterior from atividades where MONTH(data) = MONTH(NOW())-1  and supervisor = 'ENIR JOSE RODRIGUES' and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql5 ) ){
 
 
@@ -355,7 +355,7 @@ $enir_soma_bd_os = $enir_os + $enir_bd;
  //---------------------------------------VERIFICAÇÃO CRISTHIAN ---------------------------------------------
 
 
- $sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = week(NOW()) and tipo = 'OS' and supervisor = 'CRISTHIAN FRANCISCO BRUCH'" );
+ $sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = week(NOW()) and tipo = 'OS' and supervisor = 'CRISTHIAN FRANCISCO BRUCH' and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql1 ) ){
 
 
@@ -366,7 +366,7 @@ $enir_soma_bd_os = $enir_os + $enir_bd;
 
 
 
- $sql2 = mysql_query ("select count(*) as bd from atividades where  week(data) = week(NOW()) and tipo = 'BD' and supervisor = 'CRISTHIAN FRANCISCO BRUCH'" );
+ $sql2 = mysql_query ("select count(*) as bd from atividades where  week(data) = week(NOW()) and tipo = 'BD' and supervisor = 'CRISTHIAN FRANCISCO BRUCH' and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql2 ) ){
 
 
@@ -376,14 +376,14 @@ $enir_soma_bd_os = $enir_os + $enir_bd;
 
 
 
-  $sql3 = mysql_query ("select count(*) as prev from atividades where  week(data) = week(NOW()) and tipo = 'PREVENTIVA' and supervisor = 'CRISTHIAN FRANCISCO BRUCH'" );
+  $sql3 = mysql_query ("select count(*) as prev from atividades where  week(data) = week(NOW()) and tipo = 'PREVENTIVA' and supervisor = 'CRISTHIAN FRANCISCO BRUCH' and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql3 ) ){
 
 
   $cristhian_prev = $dado["prev"];
 
  } 
-  $sql4 = mysql_query ("select count(*) as conta_mes from atividades where MONTH(data) = MONTH(NOW())  and supervisor = 'CRISTHIAN FRANCISCO BRUCH'" );
+  $sql4 = mysql_query ("select count(*) as conta_mes from atividades where MONTH(data) = MONTH(NOW())  and supervisor = 'CRISTHIAN FRANCISCO BRUCH' and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql4 ) ){
 
 
@@ -391,7 +391,7 @@ $enir_soma_bd_os = $enir_os + $enir_bd;
 
  } 
 
- $sql5 = mysql_query ("select count(*) as conta_anterior from atividades where MONTH(data) = MONTH(NOW())-1  and supervisor = 'CRISTHIAN FRANCISCO BRUCH'" );
+ $sql5 = mysql_query ("select count(*) as conta_anterior from atividades where MONTH(data) = MONTH(NOW())-1  and supervisor = 'CRISTHIAN FRANCISCO BRUCH' and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql5 ) ){
 
 
@@ -403,7 +403,7 @@ $enir_soma_bd_os = $enir_os + $enir_bd;
 //------------------------------------------- VERIFICAÇÃO FLARES -------------------------------------
 
 
-$sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = week(NOW()) and tipo = 'OS' and supervisor = 'FLARES ANDRE DE LIZ'" );
+$sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = week(NOW()) and tipo = 'OS' and supervisor = 'FLARES ANDRE DE LIZ' and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql1 ) ){
 
 
@@ -414,7 +414,7 @@ $sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = 
 
 
 
- $sql2 = mysql_query ("select count(*) as bd from atividades where  week(data) = week(NOW()) and tipo = 'BD' and supervisor = 'FLARES ANDRE DE LIZ'" );
+ $sql2 = mysql_query ("select count(*) as bd from atividades where  week(data) = week(NOW()) and tipo = 'BD' and supervisor = 'FLARES ANDRE DE LIZ' and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql2 ) ){
 
 
@@ -424,14 +424,14 @@ $sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = 
 
 
 
-  $sql3 = mysql_query ("select count(*) as prev from atividades where  week(data) = week(NOW()) and tipo = 'PREVENTIVA' and supervisor = 'FLARES ANDRE DE LIZ'" );
+  $sql3 = mysql_query ("select count(*) as prev from atividades where  week(data) = week(NOW()) and tipo = 'PREVENTIVA' and supervisor = 'FLARES ANDRE DE LIZ' and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql3 ) ){
 
 
   $flares_prev = $dado["prev"];
 
  } 
-  $sql4 = mysql_query ("select count(*) as conta_mes from atividades where MONTH(data) = MONTH(NOW())  and supervisor = 'FLARES ANDRE DE LIZ'" );
+  $sql4 = mysql_query ("select count(*) as conta_mes from atividades where MONTH(data) = MONTH(NOW())  and supervisor = 'FLARES ANDRE DE LIZ' and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql4 ) ){
 
 
@@ -439,7 +439,7 @@ $sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = 
 
  }
 
- $sql5 = mysql_query ("select count(*) as conta_anterior from atividades where MONTH(data) = MONTH(NOW())-1  and supervisor = 'FLARES ANDRE DE LIZ'" );
+ $sql5 = mysql_query ("select count(*) as conta_anterior from atividades where MONTH(data) = MONTH(NOW())-1  and supervisor = 'FLARES ANDRE DE LIZ' and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql5 ) ){
 
 
@@ -453,7 +453,7 @@ $sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = 
 // ------------------------------------------------------------ VERIFICAÇÃO  JUNIOMAR ----------------------------
 
 
-$sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = week(NOW()) and tipo = 'OS' and supervisor = 'JUNIOMAR ALEX MOCHNACZ'" );
+$sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = week(NOW()) and tipo = 'OS' and supervisor = 'JUNIOMAR ALEX MOCHNACZ' and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql1 ) ){
 
 
@@ -464,7 +464,7 @@ $sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = 
 
 
 
- $sql2 = mysql_query ("select count(*) as bd from atividades where  week(data) = week(NOW()) and tipo = 'BD' and supervisor = 'JUNIOMAR ALEX MOCHNACZ'" );
+ $sql2 = mysql_query ("select count(*) as bd from atividades where  week(data) = week(NOW()) and tipo = 'BD' and supervisor = 'JUNIOMAR ALEX MOCHNACZ' and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql2 ) ){
 
 
@@ -474,14 +474,14 @@ $sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = 
 
 
 
-  $sql3 = mysql_query ("select count(*) as prev from atividades where  week(data) = week(NOW()) and tipo = 'PREVENTIVA' and supervisor = 'JUNIOMAR ALEX MOCHNACZ'" );
+  $sql3 = mysql_query ("select count(*) as prev from atividades where  week(data) = week(NOW()) and tipo = 'PREVENTIVA' and supervisor = 'JUNIOMAR ALEX MOCHNACZ' and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql3 ) ){
 
 
   $juniomar_prev = $dado["prev"];
 
- } 
-  $sql4 = mysql_query ("select count(*) as conta_mes from atividades where MONTH(data) = MONTH(NOW())  and supervisor = 'JUNIOMAR ALEX MOCHNACZ'" );
+ }  
+  $sql4 = mysql_query ("select count(*) as conta_mes from atividades where MONTH(data) = MONTH(NOW())  and supervisor = 'JUNIOMAR ALEX MOCHNACZ' and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql4 ) ){
 
 
@@ -491,7 +491,7 @@ $sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = 
 
 
 
- $sql5 = mysql_query ("select count(*) as conta_anterior from atividades where MONTH(data) = MONTH(NOW())-1  and supervisor = 'JUNIOMAR ALEX MOCHNACZ'" );
+ $sql5 = mysql_query ("select count(*) as conta_anterior from atividades where MONTH(data) = MONTH(NOW())-1  and supervisor = 'JUNIOMAR ALEX MOCHNACZ' and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql5 ) ){
 
 
@@ -553,7 +553,7 @@ $sql5 = mysql_query ("select count(*) as conta_anterior from atividades where MO
  $gilberto_soma_bd_os = $gilberto_os + $gilberto_bd;
 // ----------------------------- VERIFICACAO VALE ---------------------------------
 
-$sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = week(NOW()) and tipo = 'OS' and supervisor = 'ALISSON SQUINZANI'" );
+$sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = week(NOW()) and tipo = 'OS' and supervisor = 'ALISSON SQUINZANI' and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql1 ) ){
 
 
@@ -564,7 +564,7 @@ $sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = 
 
 
 
- $sql2 = mysql_query ("select count(*) as bd from atividades where  week(data) = week(NOW()) and tipo = 'BD' and supervisor = 'ALISSON SQUINZANI'" );
+ $sql2 = mysql_query ("select count(*) as bd from atividades where  week(data) = week(NOW()) and tipo = 'BD' and supervisor = 'ALISSON SQUINZANI' and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql2 ) ){
 
 
@@ -574,7 +574,7 @@ $sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = 
 
 
 
-  $sql3 = mysql_query ("select count(*) as prev from atividades where  week(data) = week(NOW()) and tipo = 'PREVENTIVA' and supervisor = 'ALISSON SQUINZANI'" );
+  $sql3 = mysql_query ("select count(*) as prev from atividades where  week(data) = week(NOW()) and tipo = 'PREVENTIVA' and supervisor = 'ALISSON SQUINZANI' and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql3 ) ){
 
 
@@ -582,7 +582,7 @@ $sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = 
 
  } 
 
- $sql4 = mysql_query ("select count(*) as conta_mes from atividades where MONTH(data) = MONTH(NOW())  and supervisor = 'ALISSON SQUINZANI'" );
+ $sql4 = mysql_query ("select count(*) as conta_mes from atividades where MONTH(data) = MONTH(NOW())  and supervisor = 'ALISSON SQUINZANI' and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql4 ) ){
 
 
@@ -590,7 +590,7 @@ $sql1 = mysql_query ("select count(*) as os from atividades where  week(data) = 
 
  } 
 
-$sql5 = mysql_query ("select count(*) as conta_anterior from atividades where MONTH(data) = MONTH(NOW())-1  and supervisor = 'ALISSON SQUINZANI'" );
+$sql5 = mysql_query ("select count(*) as conta_anterior from atividades where MONTH(data) = MONTH(NOW())-1  and supervisor = 'ALISSON SQUINZANI' and year(data) = year(now())" );
  while ($dado = mysql_fetch_assoc($sql5 ) ){
 
 

@@ -1,4 +1,4 @@
-<?php include "conn.php"; ?>
+﻿<?php include "conn.php"; ?>
 <?php 
 
 
@@ -193,7 +193,7 @@ height:70px;
     </div>
 
      <div class="form-group">
-      <label for="email">NÚMERO DO APARELHO TELEFÔNICO:</label>  
+      <label for="email">MODELO DO APARELHO :</label>  
       <input type="text" class="form-control" id="tel" name="tel"  required>
     </div>
     <div class="form-group">

@@ -262,13 +262,13 @@ if (mysql_num_rows($sql) > 0)
 <td> <?php echo $dado ["tipo"];  ?></td>
 <td> <?php echo $dado ["supervisor"];  ?></td>
 
-
+<?php $id =  $dado ["id"];   ?>
  <?php $pdf =  $dado ["pdf"];   ?>
  <?php $protocolo = $dado ["protocolo"];  ?>
 
 <!-- <td><?php  // echo "<a  href='pdf_fiscal/$pdf"."'pdf' target='_blank' class='btn btn-warning btn-xs' >Download</a>" ?></td> -->
 
-<td><a href="gerar_pdf_fiscal.php?id=<?php echo $id ?>" target="_blank">DOWNLOAD</a></td>
+<td><a href="gerar_pdf_fiscal.php?id=<?php echo $id ?>&&protocolo=<?php echo $protocolo ?>" target="_blank">DOWNLOAD</a></td>
 <td> <a href='editar_prev.php?protocolo=<?php echo $protocolo ?>'>EDITAR</a></td>
 <td> <a href='del_prev.php?protocolo=<?php echo $protocolo ?>'>DELETAR</a></td>
 

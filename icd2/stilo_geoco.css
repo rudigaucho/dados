@@ -1,0 +1,986 @@
+.brmenuframe {/**/
+	padding-right: 10px !important; 
+	padding-left: 10px !important;	 
+	background-image: url(http://10.62.46.13/geoco/img/fundo_barra_alt.gif) !important; 
+	color: #ffffff !important; 
+	line-height: 25px !important; 
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-weight: bold !important; 
+	font-size: 11px !important;
+}
+.brmenuframe a:link {/**/ 
+	color: blue !important; 
+	text-decoration: none !important;
+	/*writing-mode: ;*/
+}
+.brmenuframe a:visited {/**/
+	color: blue !important; 
+	text-decoration: none !important;
+}
+.brmenuframe a:hover {/**/
+	color: blue !important; 
+	text-decoration: underline !important;
+}
+.brmenuframe a:active {/**/
+	color: blue !important; 
+	text-decoration: none !important;
+}
+.topmenuframe {/**/
+	/*background-image: url(http://10.62.46.13/geoco/img/top_fundo.gif) !important;*/
+	background-repeat: no-repeat !important;
+}
+body {/**/
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+	padding-bottom: 0px !important;
+	padding-top: 0px !important;  
+	background-position: 0px 125px !important;	
+	background-attachment: scroll !important; 
+	/*background-image: url(http://10.62.46.13/geoco/img/bg_conteudo_frame.gif) !important; */
+	background-repeat: no-repeat !important;	 
+	margin: 0px !important;
+}
+.topcenario {/**/
+	/*background-image: url(http://10.62.46.13/geoco/img/layout.jpg) !important;*/
+	background-repeat: no-repeat !important;
+	background-position: left top !important;
+}
+.botao {/**/
+	background-image:url(http://10.62.46.13/geoco/img/button.jpg);
+	background-repeat:no-repeat;
+	background-position: center;
+	width:100px;
+	height:22px;
+	border:0px;
+	font-family:verdana;
+	font-size:11px;
+	font-weight:bold;
+}
+.botao-g {/**/
+	background-image:url(http://10.62.46.13/geoco/img/button_m.jpg);
+	background-repeat:no-repeat;
+	background-position: center;
+	width:160px;
+	height:22px;
+	border:0px;
+	font-family:verdana;
+	font-size:11px;
+	font-weight:bold;
+}
+.botao-p {/**/
+	background-image:url(http://10.62.46.13/geoco/img/button_p.jpg);
+	background-repeat:no-repeat;
+	background-position: center;
+	width:20px;
+	height:22px;
+	border:0px;
+	font-family:verdana;
+	font-size:11px;
+	font-weight:bold;
+	margin:1px;
+}
+.botao-gg {/**/
+	background-image:url(http://10.62.46.13/geoco/img/button_gg.jpg);
+	background-repeat:no-repeat;
+	background-position: center;
+	width:350px;
+	height:22px;
+	border:0px;
+	font-family:verdana;
+	font-size:11px;
+	font-weight:bold;
+	margin:1px;
+}
+.but-primary {
+                color: #fff;
+                background-color: rgb(132,162,183) ! important;
+                border-radius: 4px;
+                font-family: Verdana ,Helvetica, Arial, sans-serif;
+                
+}
+
+.caixatexto {/**/
+	padding-right: 1px !important; 
+	padding-left: 1px !important;
+	padding-bottom: 1px !important;
+	padding-top: 1px !important;
+	font-size: 12px !important;
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	color: #000000 !important;
+	background-color: #ffffff !important;
+}
+.textonormal {/**/
+	padding-right: 1px !important; 
+	padding-left: 1px !important;
+	padding-bottom: 1px !important;
+	padding-top: 1px !important;
+	font-size: 12px !important;
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	color: #000000 !important;
+}
+.tabela {/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 11px;
+	color: #000000 !important;
+	background-color: #FFFFFF !important;
+	border-top: 1px outset #CCCCCC !important;
+	border-right: 1px outset #999999 !important;
+	border-bottom: 1px outset #999999 !important;
+	border-left: 1px outset #CCCCCC !important;
+	border:1px solid #CCCCCC;
+}
+.tabela_transparente {/**/
+        font-family: Verdana, Arial, Helvetica, sans-serif !important;
+        font-size: 11px;
+        color: #000000 !important;
+        background-color: transparent !important;
+        /*border-top: 1px outset #CCCCCC !important;
+        border-right: 1px outset #999999 !important;
+        border-bottom: 1px outset #999999 !important;
+        border-left: 1px outset #CCCCCC !important;*/
+        border:1px solid #ccc;
+}
+.tabela_vazada {/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 11px;
+	color: #000000 ;
+	background-color: #FFFFFF;
+}
+.tabela_vazada_gcode {/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 11px;
+	color: #000000 ;
+	background-color: #FFFFFF;
+                border: none;
+}
+
+.tabela_vazada td{/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 11px;
+	color: #000000 ;
+	background-color: #FFFFFF;
+	/*border: 1px solid #888888;*/
+	border:1px solid #ccc;
+}
+
+.tabela_vazada_sem_borda {/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 11px;
+	color: #000000 ;
+	background-color: #FFFFFF;
+}
+
+
+.tabela_vazada_sem_borda td{/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 11px;
+	color: #000000 ;
+	background-color: #FFFFFF;
+	/*border: 1px solid #888888;*/
+	border:0px solid #ccc;
+}
+
+.tabela_borda_vermelha{
+    border:5px outset #f00;
+    background-color: #010;
+    color: #fff;
+}
+
+.tabela_borda_cinza{
+    border:5px outset #9C6E8B;
+    background-color: #C1BABE;
+    color: #000;
+    text-align: center !important;
+}
+
+/* Sortable tables */
+table.sortable thead {
+    background-color:#eee;
+    color:#666666;
+    font-weight: bold;
+    cursor: default;
+}
+
+.cor1 {/**/
+	background-color: #EAF4FF !important;
+}
+
+ .nomecoluna {
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 11px;
+	font-weight: bold !important;
+	color: #000000 !important;
+	background-color: rgb(204,204,255) ! important;
+        text-align: center !important;
+	line-height: 16px !important;
+	border:1px solid #ccc;
+}
+
+.linhas {
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 11px;
+	color: #000000 !important;
+        text-align: center !important;
+	border-top: 1px solid #B5B5B5;
+        border-right: 1px solid #CFCFCF;
+}
+
+.linhas2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 11px;
+	font-weight: bold !important;
+	color: #FFFFFF !important;
+	background-color: #4682B4 ! important;
+        text-align: center !important;
+	border:1px solid #CFCFCF;
+}
+
+
+/*.nomecoluna {
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 11px !important;
+	font-weight: bold !important;
+	color: #FFFFFF ! important;
+	background-color: rgb(102,102,153) ! important;
+	text-align: center !important;
+	line-height: 15px !important;
+	border:1px solid #ccc;
+}*/
+
+.nomecoluna_text_left {/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 11px;
+	font-weight: bold !important;
+	color: #000000 /*EAF4FF*/ !important;
+	/*background-color: #E6E6E6 !important;*/
+	background-color: rgb(206,221,255) ! important;
+	text-align: left !important;
+	line-height: 16px !important;
+	border:1px solid #ccc;
+}
+
+.nomecoluna_text_right {/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 11px;
+	font-weight: bold !important;
+	color: #000000 /*EAF4FF*/ !important;
+	/*background-color: #E6E6E6 !important;*/
+	background-color: rgb(206,221,255) ! important;
+	text-align: right !important;
+	line-height: 16px !important;
+	border:1px solid #ccc;
+}
+
+.nomecoluna_destaque {/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 11px;
+	font-weight: bold !important;
+	color: #000000 /*EAF4FF*/ !important;
+	background-color: #FF8C00 !important;
+/*	background-color: rgb(206,221,255) ! important;*/
+	text-align: center !important;
+	line-height: 16px !important;
+	border:1px solid #ccc;
+}
+
+.nomecoluna_destaque1 {/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 10px !important;
+	font-weight: bold !important;
+        letter-spacing:5px;
+	color: #FFFFFF ! important;
+	background-color: rgb(102,102,153) ! important;
+	text-align: center !important;
+	line-height: 15px !important;
+	border:1px solid #ccc;
+}
+
+.nomecoluna_destaque2 {/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 8px !important;
+	font-weight: bold !important;
+	color: #000000 ! important;
+	background-color: rgb(204,204,255) ! important;
+	text-align: center !important;
+/*	line-height: 15px !important;*/
+	border:1px solid #ccc;
+}
+
+.nomecoluna_1 {/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 12px !important;
+	font-weight: bold !important;
+	color: rgb(248,248,248) ! important;
+	background-color: rgb(102,102,153) ! important;
+	text-align: center !important;
+	line-height: 15px !important;
+	border:1px solid #ccc;
+}
+.nomecoluna_esteira {/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 12px !important;
+	font-weight: bold !important;
+        letter-spacing:10px;
+	color: rgb(248,248,248) ! important;
+	background-color: rgb(102,102,153) ! important;
+	text-align: center !important;
+	line-height: 15px !important;
+	border:1px solid #ccc;
+}
+
+.nomecoluna_pend {/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 12px !important;
+	font-weight: bold !important;
+        letter-spacing:10px;
+	color: rgb(248,248,248) ! important;
+	background-color: rgb(150,54,52) ! important;
+	text-align: center !important;
+	line-height: 15px !important;
+	border:1px solid #ccc;
+}
+.nomecoluna_pend_sub {/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 11px !important;
+	font-weight: bold !important;
+	color: rgb(248,248,248) ! important;
+	background-color: rgb(150,54,52) ! important;
+	text-align: center !important;
+	border:1px solid #ccc;
+}
+.nomecoluna_bklog {/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 12px !important;
+	font-weight: bold !important;
+        letter-spacing:10px;
+	color: rgb(248,248,248) ! important;
+	background-color: rgb(51,102,153) ! important;
+	text-align: center !important;
+	line-height: 15px !important;
+	border:1px solid #ccc;
+}
+.nomecoluna_bklog_sub {/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 11px !important;
+	font-weight: bold !important;
+	color: rgb(248,248,248) ! important;
+	background-color: rgb(51,102,153) ! important;
+	text-align: center !important;
+/*	line-height: 15px !important;*/
+	border:1px solid #ccc;
+}
+.nomecoluna_tm {/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 12px !important;
+	font-weight: bold !important;
+        letter-spacing:10px;
+	color: rgb(248,248,248) ! important;
+	background-color: rgb(102,102,153) ! important;
+	text-align: center !important;
+	line-height: 15px !important;
+	border:1px solid #ccc;
+}
+
+.nomecoluna_POVE {/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 12px !important;
+	font-weight: bold !important;
+        letter-spacing:10px;
+	color: #000000 ! important;
+	background-color: rgb(191,191,191) ! important;
+	text-align: center !important;
+	line-height: 15px !important;
+	border:1px solid #ccc;
+}
+
+.nomecoluna_METAS {/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 11px !important;
+	font-weight: bold !important;
+	color: rgb(248,248,248) ! important;
+	background-color: rgb(150,54,52) ! important;
+	text-align: center !important;
+	line-height: 15px !important;
+	border:1px solid #ccc;
+}
+
+.nomecoluna_tm_sub {/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 11px !important;
+	font-weight: bold !important;
+	color: rgb(248,248,248) ! important;
+	background-color: rgb(102,102,153) ! important;
+	text-align: center !important;
+	/*line-height: 15px !important;*/
+	border:1px solid #ccc;
+}
+
+.nomecoluna_UN {/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 11px !important;
+	font-weight: bold !important;
+	color: rgb(248,248,248) ! important;
+	background-color: rgb(180,85,7) ! important;
+	text-align: center !important;
+/*	line-height: 15px !important;*/
+	border:1px solid #ccc;
+}
+
+.nomecoluna_CAMPO {/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 11px !important;
+	font-weight: bold !important;
+	color: rgb(248,248,248) ! important;
+	background-color: rgb(102,102,51) ! important;
+	text-align: center !important;
+	/*line-height: 10px !important;*/
+	border:1px solid #ccc;
+}
+
+.nomecoluna_GAS {/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 11px !important;
+	font-weight: bold !important;
+	color: rgb(0,0,0) ! important;
+	background-color: rgb(191,191,191) ! important;
+	text-align: center !important;
+	/*line-height: 8px !important;*/
+	border:1px solid #ccc;
+}
+
+.nomecoluna_RB {/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 11px !important;
+	font-weight: bold !important;
+	color: rgb(0,0,0) ! important;
+	background-color: rgb(230,184,183) ! important;
+	text-align: center !important;
+	/*line-height: 15px !important;*/
+	border:1px solid #ccc;
+}
+
+.nomecoluna_TI {/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 11px !important;
+	font-weight: bold !important;
+	color: rgb(248,248,248) ! important;
+	background-color: rgb(226,107,10) ! important;
+	text-align: center !important;
+	/*line-height: 15px !important;*/
+	border:1px solid #ccc;
+}
+
+.nomecoluna_RA {/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 11px !important;
+	font-weight: bold !important;
+	color: rgb(0,0,0) ! important;
+	background-color: rgb(237,204,203) ! important;
+	text-align: center !important;
+	/*line-height: 15px !important;*/
+	border:1px solid #ccc;
+}
+
+.nomecoluna_UFs {/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 12px !important;
+	font-weight: bold !important;
+	color: rgb(248,248,248) ! important;
+	background-color: rgb(153,153,255) ! important;
+	text-align: center !important;
+	line-height: 15px !important;
+	border:1px solid #ccc;
+}
+.nomecoluna_gcode {/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 14px !important;
+	font-weight: bold !important;
+	color: rgb(248,248,248) ! important;
+	background-color: rgb(132,162,183) ! important;
+	text-align: center !important;
+                
+/*	line-height: 15px !important;*/
+}
+
+.nomecoluna_macro{
+    background-color: #ea6153 !important;  
+    font-family: 'Helvetica Neue', Helvetica, Arial; 
+    font-size: 14px;
+    line-height: 20px;  
+    font-weight: 900; 
+    color: #ffffff !important;
+    
+}
+.nomecoluna_macro1{
+    background-color: #27ae60 !important;
+    font-family: 'Helvetica Neue', Helvetica, Arial; 
+    font-size: 14px;
+    line-height: 20px;  
+    font-weight: 900; 
+    color: #ffffff !important; 
+        
+}
+.nomecoluna_macro2{
+    background-color: #2980b9 !important;  
+    font-family: 'Helvetica Neue', Helvetica, Arial; 
+    font-size: 14px;
+    line-height: 20px;  
+    font-weight: 900; 
+    color: #ffffff !important;
+    
+}
+
+.nomecoluna_macro3{
+    background-color: #F3B415 !important;  
+    font-family: 'Helvetica Neue', Helvetica, Arial; 
+    font-size: 14px;
+    line-height: 20px;  
+    font-weight: 900; 
+    color: #ffffff !important;
+    
+}
+
+.nomecoluna_macro4{
+    background-color: #BC83A8 !important;
+    font-family: 'Helvetica Neue', Helvetica, Arial; 
+    font-size: 14px;
+    line-height: 20px;  
+    font-weight: 900; 
+    color: #ffffff !important;
+    
+}
+.nomecoluna_macro5{
+    background-color: #E8A951 !important;  
+    font-family: 'Helvetica Neue', Helvetica, Arial; 
+    font-size: 14px;
+    line-height: 20px;  
+    font-weight: 900; 
+    color: #ffffff !important;
+    
+}
+
+.nomecoluna_alt1{
+    background-color: #E5DFDF !important;   
+    font-family: 'Helvetica Neue', Helvetica, Arial; 
+    font-size: 12px;
+    line-height: 20px;  
+    font-weight: 900; 
+    color: #000000;
+    text-align: center;
+}
+.nomecoluna_alt4{
+    background-color: #E5DFDF !important;   
+    font-family: 'Helvetica Neue', Helvetica, Arial; 
+    font-size: 12px;
+    line-height: 20px;  
+    font-weight: 900; 
+    color: #000000;
+    text-align: center;
+    border: 1px solid #FFFFFF !important;
+    
+}
+.nomecoluna_alt2{
+    background-color: #ffffff !important; 
+    font-family: 'Helvetica Neue', Helvetica, Arial; 
+    font-size: 12px;
+    line-height: 20px;  
+    font-weight: 900; 
+    color: #000000;
+    text-align: center;
+    
+}
+.nomecoluna_alt3{
+    background-color: #848080 !important;  
+    font-family: 'Helvetica Neue', Helvetica, Arial; 
+    font-size: 14px;
+    line-height: 20px;  
+    font-weight: 900; 
+    color: #000000;
+    text-align: center;
+    
+}
+
+.nomecoluna_lista1{
+    background-color: #E5DFDF !important;   
+    font-family: 'Helvetica Neue', Helvetica, Arial; 
+    font-size: 10px;
+    line-height: 20px;  
+    font-weight: 900; 
+    color: #000000 !important; 
+    text-align: center;
+    
+}
+.nomecoluna_lista2{
+    background-color: #ffffff !important;   
+    font-family: 'Helvetica Neue', Helvetica, Arial; 
+    font-size: 10px;
+    line-height: 20px;  
+    font-weight: 900; 
+    color: #000000;
+    text-align: center;
+    
+}
+
+.titulogeral {/**/
+	font-family: Verdana, sans-serif !important;
+	font-size: 24px;
+	line-height: 24px !important;
+	font-weight: bold !important;
+	color: #314194 !important;
+	/*background-color: #ECE9D8 !important;*/
+	/*background-image: rgb(199,214,254) !important;*/
+	background-image: url(/img/fundo_blue.gif)!important;
+	text-align: center !important;
+	border: 2px solid #ccc;
+}
+.tabela tr td {/**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 10px;
+	color: #000000 !important;
+	/*border: 1px ridge #FFFFFF;*/
+	border: 1px solid #ccc;
+}
+
+.tabela_nova { 
+    border:8px double #4682B4;
+    border-radius: 10px;
+}
+.tabela_macroarea{
+    margin: 0 0 40px 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2); 
+    display: table;
+    /*display: block;*/
+    border:1px solid #000000;
+    width:100%; 
+        
+}
+
+
+option, select{/**/
+	font-size:11px !important;
+}
+.link {/**/
+	font-weight: bold !important; 
+	text-decoration: none !important;
+	color: #000080 !important;
+}
+.bgtitulo { /**/
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-weight: bold !important;
+	font-size: 14px !important;
+	color: #314194 !important;
+	line-height: 25px !important;
+	padding-right: 10px !important;
+	background-color: #f7f7f7 !important;
+}
+a{
+	color:blue;
+}
+
+/* PARA O LINK 1 */
+
+a.linkum:link {
+color:black;
+text-decoration:none;
+}
+a.linkum:visited {
+color:black;
+text-decoration:none;
+}
+a.linkum:hover {
+color:blue;
+text-decoration:underline;
+}
+
+/* PARA O LINK 2 */
+
+a.linkdois:link {
+color:blue;
+text-decoration:none;
+}
+a.linkdois:visited {
+color:blue;
+text-decoration:none;
+}
+a.linkdois:hover {
+color:blue;
+text-decoration:underline;
+}
+
+/* PARA O LINK 2 BRANCO*/
+
+a.linkdois_white:link {
+color:white;
+text-decoration:none;
+}
+a.linkdois_white:visited {
+color:white;
+text-decoration:none;
+}
+a.linkdois_white:hover {
+color:white;
+text-decoration:underline;
+}
+
+/* PARA O LINK 2 PRETO*/
+
+a.linkdois_black:link {
+color:black;
+text-decoration:none;
+font-family: times;
+}
+a.linkdois_black:visited {
+color:black;
+text-decoration:none;
+font-family: times;
+}
+a.linkdois_black:hover {
+color:black;
+text-decoration:underline;
+font-family: times;
+}
+
+/* PARA O LINK 2 PRETO TIMES*/
+
+a.linkdois_blackt:link {
+color:black;
+text-decoration:none;
+font-family: times;
+}
+a.linkdois_blackt:visited {
+color:black;
+text-decoration:none;
+font-family: times;
+}
+a.linkdois_blackt:hover {
+color:black;
+text-decoration:underline;
+font-family: times;
+}
+
+/* PARA O LINK 2 VERMELHO*/
+
+a.linkdois_red:link {
+color:red;
+text-decoration:none;
+}
+a.linkdois_red:visited {
+color:red;
+text-decoration:none;
+}
+a.linkdois_red:hover {
+color:red;
+text-decoration:underline;
+}
+
+/* PARA O LINK 2 CINZA TIMES*/
+
+a.linkdois_gray:link {
+color:#363636;
+text-decoration:none;
+font-family: times;
+}
+a.linkdois_gray:visited {
+color:#363636;
+text-decoration:none;
+font-family: times;
+}
+a.linkdois_gray:hover {
+color:#363636;
+text-decoration:underline;
+font-family: times;
+}
+
+/* PARA O LINK 2 ROXO TIMES*/
+
+a.linkdois_purple:link {
+color:#6959CD;
+text-decoration:none;
+font-family: times;
+}
+a.linkdois_purple:visited {
+color:#6959CD;
+text-decoration:none;
+font-family: times;
+}
+a.linkdois_purple:hover {
+color:#6959CD;
+text-decoration:underline;
+font-family: times;
+}
+
+/* PARA O LINK 3 */
+
+a.linktres:link {
+color:#00FF00;
+background-color:#000000;
+text-decoration:none;
+}
+a.linktres:visited {
+color:#000000;
+text-decoration:line-through;
+}
+a.linktres:hover {
+color:#000000;
+background-color:#FF0000;
+text-decoration:none;
+}
+a.linktres:active {
+color:#FFFF00;
+text-decoration:none;
+background-color:#000000;
+}
+
+/* PARA O LINK 4 */
+
+a.linkquatro:link {
+color:green;
+text-decoration:none;
+}
+a.linkquatro:visited {
+color:green;
+text-decoration:none;
+}
+a.linkquatro:hover {
+color:blue;
+text-decoration:underline;
+}
+
+/* PARA O LINK 5 */
+
+a.linkcinco:link {
+color:green;
+text-decoration:none;
+font-size: 12px !important;
+}
+a.linkcinco:visited {
+color:green;
+text-decoration:none;
+font-size: 12px !important;
+}
+a.linkcinco:hover {
+color:blue;
+text-decoration:underline;
+font-size: 12px !important;
+}
+
+a.link_red{
+    color:red;
+    text-decoration:none;
+}
+a.link_black{
+    color:black;
+    text-decoration:none;
+}
+
+
+
+/*ESTILO IMPORTADO DO PORTAL ANTIGO*/
+.btn img {
+        text-decoration: none;
+        font-style: normal;
+        width: 24px;
+        height: 24px;
+        border: none;
+}
+
+/*
+
+.btn a:link {
+        color: #D8DB9D;
+        width: 26px;
+        height: 26px;
+}
+
+.btn a:VISITED {
+        width: 26px;
+        height: 26px;
+        color: #D8DB9D;
+}*/
+.test {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        display: inline-block;
+        height: 36px;
+        width: 320px;
+        float: none;
+        color: #FFFFFF;
+        font-weight: bold;
+        clear: both;
+}
+
+.btn_rs BUTTON {
+        text-decoration: none;
+        font-style: normal;
+        width: 24px;
+        height: 24px;
+        border: none;
+        background-image: url(../img/btn/btn_red.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-color: #FFFFFF;
+        cursor: pointer;
+}
+
+.btn_green BUTTON {
+        text-decoration: none;
+        font-style: normal;
+        width: 24px;
+        height: 24px;
+        border: none;
+        background-image: url(../img/btn/btn_green.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-color: #FFFFFF;
+        cursor: pointer;
+}
+.btn_green_view BUTTON {
+        text-decoration: none;
+        font-style: normal;
+        width: 24px;
+        height: 24px;
+        border: none;
+        background-image: url(../img/btn/btn_add_green.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-color: #FFFFFF;
+        cursor: pointer;
+}
+
+.btn_gray BUTTON {
+        text-decoration: none;
+        font-style: normal;
+        width: 24px;
+        height: 24px;
+        border: none;
+        background-image: url(../img/btn/btn_disabled_gray.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-color: #FFFFFF;
+        cursor: text;
+}
+
+.cad {
+        font-family: Verdana;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 100;
+        font-size: 14px;
+        color: #FFFFFF;
+}
+
+.cad input[type="text"]{
+    font-family: Arial, Sans-Serif;
+    font-size: 13px;
+    margin-bottom: 4px;
+    display: block;
+    padding: 4px;
+    border: solid 2px #000000;
+    width: 300px;
+    /*background-color: #EDF2F7;*/
+    font-weight: bold;
+    color:#333;
+    background-color: #ffffff;
+}
+
+
+/*FIM DO ESTILO ANTIGO*/

@@ -1,4 +1,4 @@
-
+﻿
 
 
 
@@ -244,7 +244,7 @@ $sql = mysql_query ("select * from check_eqp where  id = '$id' " );
       <tr>
      
          <td>CALÇA</td>
-        <td><input type="text" class="form-control" name="_tam" id="calca_tam" size="6">   </td> 
+        <td><input type="text" class="form-control" name="calca_tam" id="calca_tam" size="6">   </td> 
         <td> <select class="form-control " id="calca_qtd" name="calca_qtd"  >
   <option value="0">  0 </option>
  <option value="1">  1 </option>
@@ -496,7 +496,8 @@ $sql = mysql_query ("select * from check_eqp where  id = '$id' " );
     <label for="email">OBS: </label>
   <textarea class="form-control" rows="5" id="obs" name="obs" maxlength="300" placeholder="Máximo 300 caracteres"></textarea>
     </div>
-     <label for="email" style="font-size:11px; color:red"> MÁXIMO 2 MBPS POR FOTO (jpeg,jpg,png) </label>  <br>
+ <label for="email" style="font-size:11px; color:red"> MÁXIMO 2 MBPS POR FOTO (jpeg,jpg,png) </label>  <br>
+
     <label for="email">FOTO TÉCNICO : </label>
     <input type="file"  id="foto_tec1" name="foto_tec1"/> 
   

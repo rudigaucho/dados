@@ -1,7 +1,7 @@
 <?php
 error_reporting (E_ALL & ~ E_NOTICE & ~ E_DEPRECATED);
 
-$host = "localhost";
+$host = "127.0.0.1";
 $user = "root";
 $pass = "";
 $database ="portal_dados";

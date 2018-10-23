@@ -1,4 +1,4 @@
-<?php include "conn.php"; ?>
+﻿<?php include "conn.php"; ?>
 <?php 
 
 
@@ -152,7 +152,7 @@ height:70px;
   </div>
 </nav>
 
-<span><strong>CADASTRO COLOBORADOR POR G.A</strong></span><br><br><br><br>
+<span><strong>CADASTRO EQUIPAMENTOS POR G.A</strong></span><br><br><br><br>
 <div class="container">
 
 

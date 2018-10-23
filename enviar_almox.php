@@ -110,21 +110,6 @@ $serie_8 = substr($serie, 16, strlen($serie) - 15);
   
 $sql = mysql_query ("select * from base_eqp where serie_8 = '$serie_8' and qtd_rep >= '1' " );
 $row = mysql_num_rows($sql);
-
-while ($dado = mysql_fetch_assoc($sql))
-
-
- {
-   
-   $datacad = $dado ["data"];
-   $material = $dado ["material"];
-
-   
-    }
-    
-
-
-
  if ($situacao == 'NAO APRESENTOU DEFEITO')
 
   {
@@ -162,45 +147,6 @@ else
 
 else
 {
-$dataatual= date('Y-m-d');
-$datacad = $dado ['data'];
-
-$material = 'MODEM DM991SE';
-$dataCE = $datacad;
-$dataCE = DateTime::createFromFormat('Y-m-d', $dataCE);
-$dataCE->add(new DateInterval('P3Y')); // 3 ANOS
-$dataCE->add(new DateInterval('P1M'));// 1 MES
-$dataCE->format('Y-m-d');
-
-
-
-$dataSE = $datacad;;
-$dataSE = DateTime::createFromFormat('Y-m-d', $dataSE);
-$dataSE->add(new DateInterval('P3Y')); // 3 ANOS
-$dataSE->add(new DateInterval('P6M'));// 6 MES
-$dataSE->format('Y-m-d');
-
-
-
- if($material == 'MODEM DM991SE' and strtotime($dataatual) > strtotime($dataSE->format('Y-m-d')) )
-   {
-    
-
-     echo ' <h2>TEMPO DE VIDA ÚTIL DO EQUIPAMENTO EXPIROU, FAVOR DESCARTAR O MESMO!';
-
-
-
-   }
-   else if ($material == 'MODEM DM991CE' and strtotime($dataatual) > strtotime($dataSCE->format('Y-m-d')) )
-   {
-
-
-     echo ' <h2>TEMPO DE VIDA ÚTIL DO EQUIPAMENTO EXPIROU, FAVOR DESCARTAR O MESMO!';
-
-
-
-   }
-   
 
 if  ($row >= 1)
 {

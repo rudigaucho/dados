@@ -607,8 +607,8 @@ if (mysql_num_rows($sql) > 0)
      
       <?php  $ccto = $dado ["ccto"]; ?> 
 <td> <?php echo $dado ["ccto"];  ?></td>
-<td> <?php echo $dado ["cliente"];  ?>
-<td> <?php echo $dado ["justificativa"];  ?>
+<td> <?php echo $dado ["cliente"];  ?></td>
+<td> <?php echo $dado ["justificativa"];  ?></td>
 <td> <?php echo $dado ["tratada"];  ?>
 
  

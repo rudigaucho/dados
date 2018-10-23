@@ -1,4 +1,4 @@
-
+﻿
 
 
 
@@ -211,7 +211,7 @@ if(!isset($_SESSION["login"]) || ($_SESSION["acesso"] != 'GE' ) &&  ($_SESSION["
      <div class="form-group">
        <label for="email" >EQUIPE:</label> 
        <select  class="form-control" name="tec">
-       <option value="0">Escolha uma técnico</option>
+       <option value="0">Escolha um técnico</option>
         <?php
            $escolha = $_SESSION['nome'];
           

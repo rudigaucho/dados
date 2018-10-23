@@ -1,4 +1,4 @@
-<script type="text/javascript">
+﻿<script type="text/javascript">
 function saidasuccessfully()
 {
 	setTimeout("window.location='epi.php'",3000);

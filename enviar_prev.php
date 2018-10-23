@@ -38,7 +38,7 @@ include "conn.php";
 
 $ccto =$_POST['ccto'];
 
-$sql = mysql_query ("select * from repetida where ccto = '$ccto' and ga = '".$_SESSION['nome']."' and MONTH(data) = MONTH(NOW()) " );
+$sql = mysql_query ("select * from repetida where ccto = '$ccto' and ga = '".$_SESSION['nome']."'and MONTH(data) = MONTH(NOW()) " );
 $row = mysql_num_rows($sql);
  if  ($row == 0)
 {

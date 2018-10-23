@@ -61,7 +61,6 @@ function saidasuccessfully()
 
 
 <?php
-$condicao =  $_POST["condicao"];
 $obs = $_POST["obs"];
 $cliente = $_POST["cliente"];
 $ccto = $_POST["ccto"];
@@ -87,12 +86,10 @@ $resultado = count($values_gender2);
 
 
 
-if ($condicao = 'cad') 
+
 $query = "insert into atividades (protocolo,cliente,ccto,data,tipo,supervisor,pdf,endereco,contato,tec,produto,velocidade,tenc,cordial,quali,estacao,ard,quali_ard,padrao,obs)";
 
 $query.= "values ('$protocolo','$cliente','$ccto',NOW(),'$tipo','".$_SESSION["nome"]."','NAO','$endereco','$contato','$tec','$prod','$velocidade','$tenc','$cordial','$quali','$estacao','$ard','$quali_ard','$padrao','$obs')";
-
-
 
 
 

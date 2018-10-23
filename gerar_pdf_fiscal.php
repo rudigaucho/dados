@@ -1,4 +1,4 @@
-
+﻿
 <?php
 
 
@@ -18,12 +18,12 @@ if(!isset($_SESSION["login"]) || ($_SESSION["acesso"] != 'GE' ) &&  ($_SESSION["
 
 
 $id =$_GET['id'];
-$teste =$_GET['id'];
+$protocolo =$_GET['protocolo'];
 
-$sql = mysql_query ("select * from atividades where  protocolo = '$id' " );
+$sql = mysql_query ("select * from atividades where  id = '$id' " );
 
 
-$sql2 = mysql_query ("select * from foto where  prot = '$id' " );
+$sql2 = mysql_query ("select * from foto where  prot = '$protocolo' " );
 
 
  $i = 0;

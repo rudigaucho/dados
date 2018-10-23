@@ -98,7 +98,7 @@ function saidasuccessfully()
 
 $ccto =$_POST['ccto'];
 $just =$_POST['just'];
-
+$ga =$_POST['ga'];
 
 
 $sql = mysql_query ("select * from repetida where ccto = '$ccto' and ga = '".$_SESSION['nome']."' and MONTH(data) = MONTH(NOW()) " );

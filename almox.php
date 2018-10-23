@@ -1,4 +1,4 @@
-<?php include "conn.php"; ?>
+﻿<?php include "conn.php"; ?>
 
 <?php 
 
@@ -213,6 +213,7 @@ height:70px;
     <option value="NAO APRESENTOU DEFEITO">NÃO APRESENTOU DEFEITO</option>
     <option value="TAXA DE ERRO">TAXA DE ERRO</option>
     <option value="NAO LIGA">NÃO LIGA</option>
+<option value="SEM CONSERTO">SEM CONSERTO</option>
     
 </select>
 </div>

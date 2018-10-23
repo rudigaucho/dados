@@ -1,4 +1,4 @@
-<?php include "conn.php"; ?>
+﻿<?php include "conn.php"; ?>
 
 
 <?php 
@@ -203,6 +203,7 @@ function loginsuccessfully()
     <option value="NAO SINCRONIZA">NÃO SINCRONIZA</option>
     <option value="NAO APRESENTOU DEFEITO">NÃO APRESENTOU DEFEITO</option>
     <option value="TAXA DE ERRO">TAXA DE ERRO</option>
+<option value="SEM CONSERTO">SEM CONSERTO</option>
     
 </select>
 
